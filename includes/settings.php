@@ -37,7 +37,7 @@ $_settings['twilio']['test_number'] = !empty(getenv('test_number'))
     : '+15005550006';
 
 $_settings['db'] = array();
-$_settings['db']['hostname']= !empty(getenv('db_hostname')) ? getenv('db_hostname') : 'localhost';
-$_settings['db']['database']= !empty(getenv('db_name')) ? getenv('db_name') : 'firstaide';
-$_settings['db']['username']= !empty(getenv('db_username')) ? getenv('db_username') : 'root';
-$_settings['db']['password']= !empty(getenv('db_password')) ? getenv('db_password') : '';
+$_settings['db']['hostname']= 'us-cdbr-gcp-east-01.cleardb.net'; //!empty(getenv('db_hostname')) ? getenv('db_hostname') : 'localhost';
+$_settings['db']['database']= 'gcp_f48b1f3a77a5c6dfe1ec'; //!empty(getenv('db_name')) ? getenv('db_name') : 'firstaide';
+$_settings['db']['username']= 'b7e368ddb64b9c'; //!empty(getenv('db_username')) ? getenv('db_username') : 'root';
+$_settings['db']['password']= '43955d22'; //!empty(getenv('db_password')) ? getenv('db_password') : '';
