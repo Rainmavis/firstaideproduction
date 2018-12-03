@@ -1,4 +1,4 @@
-# FirstAide-Web [![Build Status](https://travis-ci.org/systers/FirstAide-web.svg?branch=develop)](https://travis-ci.org/systers/FirstAide-web)
+# First Aide - Production environment
 
 ### Abstract
 Sexual assault and rape are serious social and public health issues, being one of the major cause of concern.
